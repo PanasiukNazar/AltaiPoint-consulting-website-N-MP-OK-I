@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>AltaiPoint</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta
+            content="Бизнес-консалтинг в Казахстане, развитие бизнеса, стратегическое планирование, Экспертиза в развитии бизнеса, консультации для компаний, улучшение бизнес-процессов, Рост и эффективность, управление проектами, поддержка предпринимателей"
+            name="keywords"
+        />
+        <meta
+            content="Образовательный портал, посвящённый бизнес-консалтингу в Казахстане. Экспертиза в развитии бизнеса, стратегии роста и повышения эффективности для предпринимателей и компаний. Академический подход к развитию бизнес-процессов."
+            name="description"
+        />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Montserrat:wght@200;400;600&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar start -->
+        <div
+            class="container-fluid border-bottom bg-light wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div
+                class="container topbar bg-primary d-none d-lg-block py-2"
+                style="border-radius: 0 40px"
+            >
+                <div class="d-flex justify-content-between">
+                    <div class="top-info ps-2">
+                        <small class="me-3"
+                            ><i
+                                class="fas fa-map-marker-alt me-2 text-secondary"
+                            ></i>
+                            <a href="#" class="text-white"
+                                >Достық даңғылы 180, Алматы 050051, Казахстан</a
+                            ></small
+                        >
+                        <small class="me-3"
+                            ><i class="fas fa-envelope me-2 text-secondary"></i
+                            ><a href="#" class="text-white"
+                                >altai_point@gmail.com</a
+                            ></small
+                        >
+                    </div>
+                </div>
+            </div>
+            <div class="container px-0">
+                <nav class="navbar navbar-light navbar-expand-xl py-3">
+                    <a href="index.html" class="navbar-brand"
+                        ><h1 class="text-primary display-6">
+                            Altai<span class="text-secondary">Point</span>
+                        </h1></a
+                    >
+                    <button
+                        class="navbar-toggler py-2 px-3"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse"
+                    >
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto">
+                            <a href="index.html" class="nav-item nav-link"
+                                >Главная</a
+                            >
+                            <a href="about.html" class="nav-item nav-link"
+                                >О нас</a
+                            >
+                            <a href="service.html" class="nav-item nav-link"
+                                >Услуги</a
+                            >
+                            <a href="testimonial.html" class="nav-item nav-link"
+                                >Отзывы</a
+                            >
+                            <a href="contact.html" class="nav-item nav-link"
+                                >Контакты</a
+                            >
+                        </div>
+                        <div class="d-flex me-4">
+                            <div
+                                id="phone-tada"
+                                class="d-flex align-items-center justify-content-center"
+                            >
+                                <a
+                                    href=""
+                                    class="position-relative wow tada"
+                                    data-wow-delay=".9s"
+                                >
+                                    <i
+                                        class="fa fa-phone-alt text-primary fa-2x me-4"
+                                    ></i>
+                                    <div
+                                        class="position-absolute"
+                                        style="top: -7px; left: 20px"
+                                    >
+                                        <span
+                                            ><i
+                                                class="fa fa-comment-dots text-secondary"
+                                            ></i
+                                        ></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div
+                                class="d-flex flex-column pe-3 border-end border-primary"
+                            >
+                                <span class="text-primary">Есть вопросы?</span>
+                                <a href="tel:77273171175"
+                                    ><span class="text-secondary"
+                                        >Бесплатно: +77273171175</span
+                                    ></a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Hero Start -->
+        <div
+            class="container-fluid py-5 hero-header wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-7 col-md-12">
+                        <h1 class="mb-5 display-1 text-white">
+                            Подходы к развитию бизнеса в Казахстане
+                        </h1>
+                        <a
+                            href="contact.html"
+                            class="btn btn-primary px-4 py-3 px-md-5 me-4 btn-border-radius"
+                            >Связаться с нами</a
+                        >
+                        <a
+                            href="about.html"
+                            class="btn btn-primary px-4 py-3 px-md-5 btn-border-radius"
+                            >Подробнее</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+
+        <!-- About Start -->
+        <div class="container-fluid py-5 about">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="approach border"></div>
+                    </div>
+                    <div class="col-lg-7 wow fadeIn" data-wow-delay="0.3s">
+                        <h4
+                            class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius"
+                        >
+                            Наш подход
+                        </h4>
+                        <h1 class="text-dark mb-4 display-5">
+                            Экспертиза в развитии бизнеса: академический взгляд
+                        </h1>
+                        <p class="text-dark mb-4">
+                            Мы предлагаем образовательные материалы по
+                            бизнес-консалтингу, направленные на глубокое
+                            понимание стратегий Ростa и развития в условиях
+                            Казахстана. Наш подход основан на академическом
+                            анализе бизнес-среды, экономических факторов и
+                            внутренних процессов компании. Используя научные
+                            методы, мы разбираем примеры оптимизации
+                            бизнес-процессов, управления проектами и внедрения
+                            устойчивых решений. Особое внимание уделяется
+                            практическим аспектам, применимым в казахстанском
+                            контексте. Мы стремимся предоставить знания,
+                            способствующие развитию управленческих навыков и
+                            стратегическому мышлению без коммерческого
+                            подтекста.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Main Services Start -->
+        <div class="container-fluid py-5 services">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div
+                        class="col-lg-12 text-center wow fadeIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <h4
+                            class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius"
+                        >
+                            Основные направления
+                        </h4>
+                        <h1 class="mb-2 display-3">
+                            Академические направления бизнес-консалтинга
+                        </h1>
+
+                        <p class="text-dark mb-4">
+                            Мы предлагаем исследовательский и аналитический
+                            подход к вопросам бизнес-консалтинга в Казахстане.
+                            Наши материалы ориентированы на изучение стратегий
+                            Ростa, оптимизации процессов и развития организаций
+                            в контексте современной экономики. Используя
+                            экспертные подходы, мы рассматриваем пути
+                            совершенствования бизнес-процессов и управленческих
+                            решений.
+                        </p>
+                    </div>
+                </div>
+                <div class="row g-5">
+                    <!-- Service 1 -->
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeIn"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="service-card border rounded p-4 text-center"
+                        >
+                            <h4 class="text-primary mb-3">
+                                Оптимизация процессов
+                            </h4>
+                            <p class="text-dark">
+                                Изучение методик повышения эффективности
+                                внутренних процессов компаний. Анализ
+                                применимости инструментов управления в
+                                бизнес-среде Казахстана, включая методы снижения
+                                издержек и повышения результативности.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Service 2 -->
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div
+                            class="service-card border rounded p-4 text-center"
+                        >
+                            <h4 class="text-primary mb-3">
+                                Стратегии Ростa бизнеса
+                            </h4>
+                            <p class="text-dark">
+                                Академическое исследование стратегий,
+                                направленных на устойчивое развитие организаций.
+                                Изучение моделей расширения, выхода на новые
+                                рынки и формирования эффективных партнерств в
+                                условиях казахстанской экономики.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Service 3 -->
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeIn"
+                        data-wow-delay="0.7s"
+                    >
+                        <div
+                            class="service-card border rounded p-4 text-center"
+                        >
+                            <h4 class="text-primary mb-3">
+                                Развитие лидерства
+                            </h4>
+                            <p class="text-dark">
+                                Теоретические и прикладные подходы к
+                                формированию лидерских качеств в бизнес-среде.
+                                Анализ компетенций и управленческих практик,
+                                способствующих успешному руководству в условиях
+                                роста и изменений.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main Services End -->
+
+        <!-- Service Start -->
+        <div class="container-fluid service py-5">
+            <div class="container py-5">
+                <div
+                    class="mx-auto text-center wow fadeIn"
+                    data-wow-delay="0.1s"
+                    style="max-width: 700px"
+                >
+                    <h4
+                        class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius"
+                    >
+                        Почему это важно?
+                    </h4>
+                    <h1 class="mb-2 display-3">
+                        Значение бизнес-консалтинга для развития компаний
+                    </h1>
+                    <p class="mb-5">
+                        В современных условиях Рост и развитие бизнеса требуют
+                        обоснованных решений и стратегического мышления.
+                        Консалтинг как дисциплина предлагает системный подход к
+                        анализу бизнес-среды и повышению эффективности
+                        управления. Мы исследуем, как академические знания
+                        способствуют принятию обоснованных решений и улучшению
+                        процессов внутри компаний.
+                    </p>
+                </div>
+                <div class="row g-5">
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <div
+                            class="text-center border-primary border bg-white service-item"
+                        >
+                            <div
+                                class="service-content d-flex align-items-center justify-content-center p-4"
+                            >
+                                <div class="service-content-inner">
+                                    <a href="#" class="h4">
+                                        Стратегическое планирование
+                                    </a>
+                                    <p class="my-3">
+                                        Подходы к построению долгосрочной
+                                        стратегии на основе анализа среды, целей
+                                        и потенциала компании. Практики
+                                        адаптации стратегий под казахстанский
+                                        рынок.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeIn"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="text-center border-primary border bg-white service-item"
+                        >
+                            <div
+                                class="service-content d-flex align-items-center justify-content-center p-4"
+                            >
+                                <div class="service-content-inner">
+                                    <a href="#" class="h4">
+                                        Анализ бизнес-процессов
+                                    </a>
+                                    <p class="my-3">
+                                        Выявление узких мест и формирование
+                                        подходов к оптимизации внутренних
+                                        операций. Методы улучшения
+                                        продуктивности и применения цифровых
+                                        инструментов.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div
+                            class="text-center border-primary border bg-white service-item"
+                        >
+                            <div
+                                class="service-content d-flex align-items-center justify-content-center p-4"
+                            >
+                                <div class="service-content-inner">
+                                    <a href="#" class="h4">
+                                        Развитие организационной культуры
+                                    </a>
+                                    <p class="my-3">
+                                        Теоретические подходы к построению
+                                        корпоративной культуры, способствующей
+                                        Росту. Роль лидерства и командной работы
+                                        в процессе изменений.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeIn"
+                        data-wow-delay="0.7s"
+                    >
+                        <div
+                            class="text-center border-primary border bg-white service-item"
+                        >
+                            <div
+                                class="service-content d-flex align-items-center justify-content-center p-4"
+                            >
+                                <div class="service-content-inner">
+                                    <a href="#" class="h4">
+                                        Мониторинг результатов
+                                    </a>
+                                    <p class="my-3">
+                                        Исследование подходов к отслеживанию и
+                                        анализу эффективности изменений. Методы
+                                        оценки показателей развития компании на
+                                        различных этапах трансформации.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+        <!-- Programs Start -->
+        <div class="container-fluid program py-5">
+            <div class="container py-5">
+                <div
+                    class="mx-auto text-center wow fadeIn"
+                    data-wow-delay="0.1s"
+                    style="max-width: 700px"
+                >
+                    <h4
+                        class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius"
+                    >
+                        Особенности подхода
+                    </h4>
+                    <h1 class="mb-2 display-3">
+                        Ключевые аспекты консалтинга в Казахстане
+                    </h1>
+                    <p class="mb-5">
+                        Мы анализируем специфические факторы, влияющие на бизнес
+                        в Казахстане, включая экономические условия,
+                        законодательные рамки и культурные особенности
+                        управления. Наш подход направлен на формирование
+                        устойчивых решений, подкреплённых научными методами и
+                        практическими кейсами.
+                    </p>
+                </div>
+                <div class="row g-5 justify-content-center">
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-4 wow fadeIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="program-item rounded">
+                            <div class="program-img position-relative">
+                                <div class="overflow-hidden img-border-radius">
+                                    <img
+                                        src="img/program-1.jpg"
+                                        class="img-fluid w-100"
+                                        alt="Image"
+                                    />
+                                </div>
+                            </div>
+                            <div class="program-text bg-white px-4 pb-3">
+                                <div class="program-text-inner">
+                                    <a href="#" class="h4">
+                                        Индивидуальные аналитические решения
+                                    </a>
+                                    <p class="mt-3 mb-0">
+                                        Мы разрабатываем рекомендации на основе
+                                        глубокого анализа ситуации предприятия.
+                                        Такой подход позволяет предлагать
+                                        решения, учитывающие уникальные
+                                        особенности казахстанских компаний.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-4 wow fadeIn"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="program-item rounded">
+                            <div class="program-img position-relative">
+                                <div class="overflow-hidden img-border-radius">
+                                    <img
+                                        src="img/program-2.jpg"
+                                        class="img-fluid w-100"
+                                        alt="Image"
+                                    />
+                                </div>
+                            </div>
+                            <div class="program-text bg-white px-4 pb-3">
+                                <div class="program-text-inner">
+                                    <a href="#" class="h4">
+                                        Совершенствование процессов
+                                    </a>
+                                    <p class="mt-3 mb-0">
+                                        Научный подход к оптимизации процессов
+                                        компании с акцентом на повышение
+                                        эффективности. Изучение примеров
+                                        успешной трансформации бизнес-моделей.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-4 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="program-item rounded">
+                            <div class="program-img position-relative">
+                                <div class="overflow-hidden img-border-radius">
+                                    <img
+                                        src="img/program-3.jpg"
+                                        class="img-fluid w-100"
+                                        alt="Image"
+                                    />
+                                </div>
+                            </div>
+                            <div class="program-text bg-white px-4 pb-3">
+                                <div class="program-text-inner">
+                                    <a href="#" class="h4">
+                                        Принятие решений на основе данных
+                                    </a>
+                                    <p class="mt-3 mb-0">
+                                        Мы изучаем роль аналитики и цифровых
+                                        инструментов в принятии обоснованных
+                                        управленческих решений. Подход
+                                        ориентирован на построение стратегии,
+                                        основанной на объективной информации.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Program End -->
+
+        <!-- Blog Start-->
+        <div class="container-fluid blog py-5">
+            <div class="container py-5">
+                <div
+                    class="mx-auto text-center wow fadeIn"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <h4
+                        class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius"
+                    >
+                        Новости и статьи
+                    </h4>
+                    <h1 class="mb-2 display-3">
+                        Аналитика и тенденции в бизнес-консалтинге Казахстана
+                    </h1>
+                    <p class="mb-5">
+                        Следите за нашими последними публикациями, где мы
+                        делимся полезными знаниями и стратегиями, направленными
+                        на рост и развитие бизнеса в Казахстане. Наши материалы
+                        охватывают темы оптимизации бизнес-процессов, повышения
+                        эффективности и устойчивого развития. Будь то новые
+                        подходы к управлению, анализ рынка или эффективные
+                        решения для предпринимателей — наши статьи помогут
+                        расширить экспертность и способствовать успеху вашего
+                        дела.
+                    </p>
+                </div>
+                <div class="row g-5 justify-content-center">
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-6 wow fadeIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="blog-item rounded-bottom">
+                            <div
+                                class="blog-img overflow-hidden position-relative img-border-radius"
+                            >
+                                <img
+                                    src="img/blog-1.jpg"
+                                    class="img-fluid w-100"
+                                    alt="Image"
+                                />
+                            </div>
+                            <div
+                                class="d-flex justify-content-between px-4 py-3 bg-light border-bottom border-primary blog-date-comments"
+                            >
+                                <small class="text-dark"
+                                    ><i
+                                        class="fas fa-calendar me-1 text-dark"
+                                    ></i>
+                                    10 марта 2025</small
+                                >
+                                <small class="text-dark"
+                                    ><i
+                                        class="fas fa-comment-alt me-1 text-dark"
+                                    ></i>
+                                    Комментарии (12)</small
+                                >
+                            </div>
+                            <div class="px-4 pb-4 bg-light pt-4 rounded-bottom">
+                                <div class="blog-text-inner">
+                                    <a href="#" class="h4">
+                                        Эффективное управление
+                                        бизнес-процессами: пошаговое руководство
+                                    </a>
+                                    <p class="mt-3 mb-4">
+                                        В статье рассматриваются ключевые методы
+                                        оптимизации бизнес-процессов в условиях
+                                        казахстанского рынка. Мы обсуждаем, как
+                                        с помощью современных инструментов
+                                        повысить производительность, снизить
+                                        издержки и обеспечить стабильный рост
+                                        компании. Получите практические
+                                        рекомендации для развития вашего
+                                        бизнеса.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-6 wow fadeIn"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="blog-item rounded-bottom">
+                            <div
+                                class="blog-img overflow-hidden position-relative img-border-radius"
+                            >
+                                <img
+                                    src="img/blog-2.jpg"
+                                    class="img-fluid w-100"
+                                    alt="Image"
+                                />
+                            </div>
+                            <div
+                                class="d-flex justify-content-between px-4 py-3 bg-light border-bottom border-primary blog-date-comments"
+                            >
+                                <small class="text-dark"
+                                    ><i
+                                        class="fas fa-calendar me-1 text-dark"
+                                    ></i>
+                                    20 апреля 2025</small
+                                >
+                                <small class="text-dark"
+                                    ><i
+                                        class="fas fa-comment-alt me-1 text-dark"
+                                    ></i>
+                                    Комментарии (30)</small
+                                >
+                            </div>
+
+                            <div class="px-4 pb-4 pt-4 bg-light rounded-bottom">
+                                <div class="blog-text-inner">
+                                    <a href="#" class="h4">
+                                        Топ 5 стратегий для роста и развития
+                                        бизнеса в Казахстане
+                                    </a>
+                                    <p class="mt-3 mb-4">
+                                        В статье описываются пять основных
+                                        стратегий, которые способствуют
+                                        устойчивому росту бизнеса в условиях
+                                        казахстанского рынка. Рассматриваются
+                                        вопросы конкурентных преимуществ,
+                                        управления ресурсами и повышения
+                                        клиентской лояльности. Ознакомьтесь с
+                                        практическими рекомендациями и
+                                        инструментами для развития вашего дела.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End-->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid footer py-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="footer-item">
+                            <h2 class="fw-bold mb-3">
+                                <span class="text-primary mb-0">Altai</span
+                                ><span class="text-secondary">Point</span>
+                            </h2>
+                            <p class="mb-4">
+                                Благодарим вас за посещение нашего раздела,
+                                посвящённого вопросам бизнес-консалтинга в
+                                Казахстане. Мы фокусируемся на исследовании
+                                методов повышения эффективности и
+                                стратегического развития организаций. Наша цель
+                                — делиться академическими подходами и экспертной
+                                аналитикой в сфере управления и
+                                бизнес-планирования, способствующими устойчивому
+                                Росту и развитию.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="footer-item">
+                            <div
+                                class="d-flex flex-column p-4 ps-5 text-dark border border-primary"
+                                style="border-radius: 0"
+                            >
+                                <p>Понедельник: 8:00 – 17:00</p>
+                                <p>Вторник: 8:00 – 17:00</p>
+                                <p>Среда: 8:00 – 17:00</p>
+                                <p>Четверг: 8:00 – 17:00</p>
+                                <p>Пятница: 8:00 – 17:00</p>
+                                <p>Суббота: 8:00 – 17:00</p>
+                                <p class="mb-0">Воскресенье: Выходной</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="footer-item">
+                            <h4
+                                class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius"
+                            >
+                                АДРЕС
+                            </h4>
+                            <div class="d-flex flex-column align-items-start">
+                                <a href="" class="text-body mb-4"
+                                    ><i
+                                        class="fa fa-map-marker-alt text-primary me-3"
+                                    ></i>
+                                    Достық даңғылы 180, Алматы 050051, Казахстан
+                                </a>
+                                <a href="tel:+1000000000" class="text-body mb-4"
+                                    ><i
+                                        class="fa fa-phone-alt text-primary me-3"
+                                    ></i
+                                    >+77273171175</a
+                                >
+                                <a
+                                    href="mailto:info@businessconsult.com"
+                                    class="text-body"
+                                    ><i
+                                        class="fa fa-envelope text-primary me-3"
+                                    ></i>
+                                    altai_point@gmail.com</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="footer-item">
+                            <h4
+                                class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius"
+                            >
+                                ССЫЛКИ
+                            </h4>
+                            <div class="d-flex flex-column align-items-start">
+                                <a href="index.html" class="text-body mb-4">
+                                    Главная
+                                </a>
+                                <a
+                                    href="terms-of-use.html"
+                                    class="text-body mb-4"
+                                    >Условия использования</a
+                                >
+                                <a
+                                    href="privacy-policy.html"
+                                    class="text-body mb-4"
+                                    >Политика конфиденциальности
+                                </a>
+                                <a href="cookie-policy.html" class="text-body"
+                                    >Политика использования cookies
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">
+                    Согласие на использование cookies
+                </h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Этот сайт использует cookies для улучшения пользовательского
+                    опыта и предоставления более релевантной информации.
+                    <a href="cookie-policy.html">Подробнее...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-primary border-3 border-primary rounded-circle back-to-top"
+            ><i class="fa fa-arrow-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
