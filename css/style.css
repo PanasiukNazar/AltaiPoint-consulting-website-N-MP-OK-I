@@ -34,7 +34,7 @@ h3,
 .h2,
 .h3 {
     font-weight: 200;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 h4,
@@ -44,7 +44,7 @@ h6,
 .h5,
 .h6 {
     font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .display-1,
@@ -54,7 +54,7 @@ h6,
 .display-5,
 .display-6 {
     font-weight: 700;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .display-4,
@@ -133,7 +133,7 @@ h6,
 .topbar .top-info {
     font-size: medium;
     font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     letter-spacing: 1px;
     display: flex;
     align-items: center;
@@ -179,8 +179,8 @@ h6,
 
 .navbar .dropdown-toggle::after {
     border: none;
-    content: '\f107';
-    font-family: 'Font Awesome 5 Free';
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
     font-weight: 700;
     vertical-align: middle;
     margin-left: 8px;
@@ -192,7 +192,7 @@ h6,
         visibility: hidden;
         top: 100%;
         font-weight: 400;
-        font-family: 'Roboto', sans-serif;
+        font-family: "Roboto", sans-serif;
         transform: rotateX(-75deg);
         transform-origin: 0% 0%;
         border: 0;
@@ -279,7 +279,7 @@ h6,
 }
 
 .video .btn-play:before {
-    content: '';
+    content: "";
     position: absolute;
     z-index: 0;
     left: 50%;
@@ -294,7 +294,7 @@ h6,
 }
 
 .video .btn-play:after {
-    content: '';
+    content: "";
     position: absolute;
     z-index: 1;
     left: 50%;
@@ -392,7 +392,7 @@ h6,
 
 .service-content::after {
     position: absolute;
-    content: '';
+    content: "";
     width: 0;
     height: 100%;
     top: 0;
@@ -509,7 +509,7 @@ h6,
 
 .events .events-item .events-img::after {
     position: absolute;
-    content: '';
+    content: "";
     width: 100%;
     height: 0;
     top: 0;
@@ -542,7 +542,7 @@ h6,
 /*** Blog Start ***/
 .blog .blog-item .blog-img::after {
     position: absolute;
-    content: '';
+    content: "";
     width: 100%;
     height: 0;
     top: 0;
@@ -681,7 +681,7 @@ h6,
     color: var(--bs-secondary) !important;
 }
 /*** Footer End ***/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 .cookie-wrapper {
     position: fixed;
@@ -705,12 +705,12 @@ h6,
     display: none;
 }
 header i {
-    color: #008c76ff;
+    color: #000000;
     font-size: 32px;
     text-align: center;
 }
 header h2 {
-    color: #008c76ff;
+    color: #000000;
     font-weight: 500;
     text-align: center;
 }
@@ -718,7 +718,7 @@ header h2 {
     text-align: center;
 }
 .data p a {
-    color: #008c76ff;
+    color: #000000;
     text-decoration: none;
     text-align: center !important;
 }
@@ -730,10 +730,10 @@ header h2 {
     text-align: center;
 }
 .buttons .cookie-button {
-    border: 2px solid #008c76ff;
+    border: 2px solid #000000;
     color: #fff;
     padding: 8px 0;
-    background: #008c76ff;
+    background: #000000;
     cursor: pointer;
     width: calc(100% / 2 - 10px);
     transition: all 0.2s ease;
@@ -742,14 +742,14 @@ header h2 {
 }
 .buttons #acceptBtn:hover {
     background-color: transparent;
-    color: #008c76ff;
+    color: #000000;
 }
 #declineBtn {
     background-color: #fff;
-    color: #008c76ff;
+    color: #000000;
     border-radius: 0;
 }
 #declineBtn:hover {
-    background-color: #008c76ff;
+    background-color: #000000;
     color: #fff;
 }
